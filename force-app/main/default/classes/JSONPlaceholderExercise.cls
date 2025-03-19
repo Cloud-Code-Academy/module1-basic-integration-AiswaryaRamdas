@@ -19,10 +19,8 @@ public class JSONPlaceholderExercise {
         Http http = new Http();
         HttpResponse response = http.send(request);
         // 5. Return the response body as string
-        if(response.getStatusCode() >= 200 && response.getStatusCode() <= 299) {
-            return response.getBody();
-        }
-        return null;
+        return response.getBody();
+        //return null;
     }
     
     /**
@@ -54,10 +52,8 @@ public class JSONPlaceholderExercise {
         Http http = new Http();
         HttpResponse response = http.send(request);
         // 7. Return the response body as string
-        if(response.getStatusCode() >= 200 && response.getStatusCode() <= 299){
-            return response.getBody();
-        }
-        return null;
+        return response.getBody();
+        //return null;
     }
     
     /**
@@ -90,10 +86,8 @@ public class JSONPlaceholderExercise {
         Http http = new Http();
         HttpResponse response = http.send(request);
         // 7. Return the response body as string
-        if(response.getStatusCode() >= 200 && response.getStatusCode() <= 299){
-            return response.getBody();
-        }
-        return null;
+        return response.getBody();
+        //return null;
     }
     
     /**
@@ -122,10 +116,8 @@ public class JSONPlaceholderExercise {
         Http http = new Http();
         HttpResponse response = http.send(request);
         // 7. Return the response body as string
-        if(response.getStatusCode() >= 200 && response.getStatusCode() <= 299){
-            return response.getBody();
-        }
-        return null;
+        return response.getBody();
+        //return null;
     }
     
     /**
